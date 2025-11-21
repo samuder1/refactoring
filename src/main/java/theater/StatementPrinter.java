@@ -28,8 +28,8 @@ public class StatementPrinter {
      * @return the formatted statement as a string
      */
     public String statement() {
-        int totalAmount = getTotalAmount();
-        int volumeCredits = getTotalVolumeCredits();
+        final int totalAmount = getTotalAmount();
+        final int volumeCredits = getTotalVolumeCredits();
 
         final StringBuilder result = new StringBuilder();
         result.append("Statement for ").append(invoice.getCustomer()).append("\n");
