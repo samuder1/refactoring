@@ -87,7 +87,7 @@ public class StatementPrinter {
 
         return result;
     }
-
+/**2.4task**/
     private int getTotalVolumeCredits() {
         int result = 0;
         for (Performance performance : invoice.getPerformances()) {
