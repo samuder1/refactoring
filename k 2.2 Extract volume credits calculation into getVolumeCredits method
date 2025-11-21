@@ -1,0 +1,12 @@
+[33m15037b9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update log.txt with all task commits
+[33m5f74cfd[m Task 2.1: Extract switch statement logic into getAmount method, rename variables, and remove unnecessary parameters
+[33me3b5f4a[m Task 1.2: Update git log
+[33m231b71b[m Task 1.1: Fix all CheckStyle issues including Constants.java syntax errors, replace magic numbers with constants, and add proper Javadoc documentation
+[33mfb66fc1[m Task 1.2: Update git log
+[33mdf38ca0[m Task 1.1: Fix CheckStyle issues including Constants.java syntax, magic numbers, and add Javadoc
+[33m2b4f164[m[33m ([m[1;32mrefactoring-solution[m[33m)[m fixed tests for the not-for-credit tasks; parameter ordering and ensuring consistent line endings.
+[33mff5004e[m adding shortcut keys for Inline Variable (Re: Piazza question)
+[33mb545fe2[m clarifying extracted method names in README.md
+[33ma0124c9[m fixing starter file
+[33mc8d9d38[m adding starter files
+[33mcbe4517[m first commit

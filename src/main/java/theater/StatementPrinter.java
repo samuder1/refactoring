@@ -76,7 +76,7 @@ public class StatementPrinter {
         }
         return result;
     }
-
+/**2,2task*/
     private int getVolumeCredits(Performance performance) {
         final Play play = getPlay(performance);
         int result = Math.max(performance.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
