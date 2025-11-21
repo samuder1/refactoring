@@ -103,7 +103,7 @@ public class StatementPrinter {
         }
         return result;
     }
-
+/**2.3task**/
     private String usd(int amount) {
         final NumberFormat format = NumberFormat.getCurrencyInstance(Locale.US);
         return format.format(amount / Constants.PERCENT_FACTOR);
