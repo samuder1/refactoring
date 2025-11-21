@@ -76,7 +76,7 @@ public class StatementPrinter {
         }
         return result;
     }
-/**2,2task*/
+
     private int getVolumeCredits(Performance performance) {
         final Play play = getPlay(performance);
         int result = Math.max(performance.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
@@ -87,7 +87,7 @@ public class StatementPrinter {
 
         return result;
     }
-/**2.4task**/
+
     private int getTotalVolumeCredits() {
         int result = 0;
         for (Performance performance : invoice.getPerformances()) {
@@ -103,7 +103,7 @@ public class StatementPrinter {
         }
         return result;
     }
-/**2.3task**/
+
     private String usd(int amount) {
         final NumberFormat format = NumberFormat.getCurrencyInstance(Locale.US);
         return format.format(amount / Constants.PERCENT_FACTOR);
