@@ -12,7 +12,7 @@ public class StatementPrinter {
     private final Map<String, Play> plays;
 
     /**
-     * Constructs a StatementPrinter with the given invoice and plays.
+     * Constructs the StatementPrinter with the given invoice and plays.
      *
      * @param invoice the invoice containing customer and performances
      * @param plays the map of play IDs to Play objects
